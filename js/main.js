@@ -24,6 +24,7 @@ $(function() {
         }
 
         oText.val(aText[iNow]);
+        textChange(oText,aText[iNow]); 
         aLi.each(function(index) {
             // var this = $(this); ？ 无效
             $(this).click(function() {
@@ -33,8 +34,8 @@ $(function() {
                 oText.val(aText[iNow]);
                 textChange(oText,aText[iNow]); 
             });    
-
         });
+        
 
         
      /*搜索栏end*/  
