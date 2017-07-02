@@ -87,7 +87,7 @@ $(function() {
                 oUl.stop().animate({ top: iH * -iNow }, 1000);
             } else {
                 iNow--;
-                play();
+                oUl.stop().animate({ top: iH * -iNow }, 1000);
             }
         }
 
